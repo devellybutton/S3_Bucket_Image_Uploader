@@ -1,16 +1,27 @@
 # S3 버킷 이미지 업로더
 ![화면 캡처 2024-10-02 215435](https://github.com/user-attachments/assets/e5726fea-76bb-4e3a-87df-b3cec5bbe50c)
 
-### 기술 스택
+### 1. [기술 스택](#https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)
+### 2. [작동 순서](#https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#%EC%9E%91%EB%8F%99-%EC%88%9C%EC%84%9C)
+### 3. [참고사항](#https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#%EC%B0%B8%EA%B3%A0%EC%82%AC%ED%95%AD)
+### 4. [시연 GIF](#https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#%EC%8B%9C%EC%97%B0-gif)
+
+----
+
+# 기술 스택
 - HTML, CSS, JavaScript, Fetch API, AWS S3
 
-### 작동 순서 
+-----
+
+# 작동 순서 
 1. 사용자가 로컬 컴퓨터에서 본인 컴퓨터에 있는 파일을 선택한다.
 2. 선택된 이미지의 미리보기가 박스 안에 보여진다.
 3. 밑에 있는 업로드 버튼을 눌러서 선택한 이미지를 Amazon S3에 업로드한다.
 
-### 참고사항
-- input type="file" 태그의 '선택된 파일 없음' 이라는 문구가 거슬려서  그 위에 버튼을 만들고 input 태그는 CSS로 숨겨놓았음.
+-----
+
+# 참고사항
+- input type="file" 태그의 '선택된 파일 없음' 이라는 문구가 거슬려서  그 위에 버튼을 만들고 input 태그는 CSS로 숨겨놓았음. 
 - 요청을 두 번 보내야 함.
 
 | no | Method | request body                     | Endpoint                                        |
@@ -44,5 +55,7 @@
 
 </details>
 
-### 시연 GIF
+---
+
+# 시연 GIF
 ![ezgif-5-e92fa69efb](https://github.com/user-attachments/assets/e15ff6c4-a77c-48f3-8952-0bc17e54346c)
