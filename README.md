@@ -1,10 +1,15 @@
 # S3 버킷 이미지 업로더
-![화면 캡처 2024-10-02 215435](https://github.com/user-attachments/assets/e5726fea-76bb-4e3a-87df-b3cec5bbe50c)
 
-### 1. [기술 스택](#https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D)
-### 2. [작동 순서](#https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#%EC%9E%91%EB%8F%99-%EC%88%9C%EC%84%9C)
-### 3. [참고사항](#https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#%EC%B0%B8%EA%B3%A0%EC%82%AC%ED%95%AD)
-### 4. [시연 GIF](#https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#%EC%8B%9C%EC%97%B0-gif)
+### 1. [기술 스택](https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#기술-스택)
+### 2. [작동 순서](https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#작동-순서)
+### 3. [참고사항](https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#참고사항)
+### 4. [시연 GIF](https://github.com/devellybutton/S3_Bucket_Image_Uploader?tab=readme-ov-file#시연-GIF)
+
+----
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/e5726fea-76bb-4e3a-87df-b3cec5bbe50c" alt="화면 캡처" width="60%">
+</p>
 
 ----
 
@@ -58,4 +63,6 @@
 ---
 
 # 시연 GIF
-![ezgif-5-e92fa69efb](https://github.com/user-attachments/assets/e15ff6c4-a77c-48f3-8952-0bc17e54346c)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/e15ff6c4-a77c-48f3-8952-0bc17e54346c" alt="시연 GIF" width="60%">
+</p>
