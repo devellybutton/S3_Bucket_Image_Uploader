@@ -18,8 +18,10 @@
 | 1  | POST   | ```{ "fileType": file.type }```     | 서버의 presigned url 생성하는 엔드포인트      |
 | 2  | POST   | `formData`                      | 위 1번 요청의 response로 받은 URL               |
 
-- 서버의 condition에서 Content-Type 조건을 설정하였을 경우 <br>
-<i>예시)</i>
+- 서버의 presigned URL 생성 코드 중 conditions에서 Content-Type 조건을 설정하였을 경우, 프론트엔드에서 form Data를 생성한 다음 formData에 content-type을 명시적으로 넣어주어야 함. 
+<details>
+<summary><i>예시) 서버의 conditions 중 '$Content-Type' 부분</i></summary>
+
 ```
         Bucket: bucket, // 생성한 버킷 이름
         Key: key, //생성된 키
@@ -29,8 +31,18 @@
         ],
         Expires: 60, // 유효기간(초 단위)
 ```
+</details>
 
-프론트엔드에서 form Data를 생성한 다음 formData에 content-type을 명시적으로 넣어주어야 함.
+<details>
+<summary><i>예시) 프론트엔드의 formData 생성 코드</i></summary>
+
+```
+    // S3에 파일 업로드
+    const formData = new FormData();
+    formData.append('Content-Type', file.type);
+```
+
+</details>
 
 ### 시연 GIF
 ![ezgif-5-e92fa69efb](https://github.com/user-attachments/assets/e15ff6c4-a77c-48f3-8952-0bc17e54346c)
