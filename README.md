@@ -66,3 +66,32 @@
 <p align="center">
     <img src="https://github.com/user-attachments/assets/e15ff6c4-a77c-48f3-8952-0bc17e54346c" alt="시연 GIF" width="60%">
 </p>
+
+---
+
+# 참고 링크
+
+<details>
+<summary>presigned URL 생성 (NestJS 서버 코드 포함)</summary>
+
+- https://www.adarsha.dev/blog/aws-s3-nestjs
+- https://advancedweb.hu/how-to-use-s3-post-signed-urls/
+- https://velog.io/@davidktlee/S3-presigned-url-%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%82%AC%EC%A7%84-%EC%97%85%EB%A1%9C%EB%93%9C
+
+</details>
+
+<details>
+<summary>presigned URL content type conditions 관련</summary>
+
+- https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-HTTPPOSTConstructPolicy.html
+- https://pizza7311.me/post/dev/s3-createPresignedPost
+
+</details>
+
+<details>
+<summary>input type="file" 관련</summary>
+
+- https://developer.mozilla.org/ko/docs/Web/HTML/Element/input/file
+- https://studyingpingu.tistory.com/60
+
+</details>
